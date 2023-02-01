@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../scss/cooldiv.scss'
 
-import img1 from '../img/img_cooldiv.jpg'
+import img1 from '../img/img_cooldiv.webp'
 import arrowleft from '../img/img_btn_left.png'
 import arrowright from '../img/img_btn_right.png'
 

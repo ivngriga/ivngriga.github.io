@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../scss/newsletter.scss'
 
-import img1 from '../img/img_newsletter.jpg'
+import img1 from '../img/img_newsletter.webp'
 
 export function Newsletter(){
     return(

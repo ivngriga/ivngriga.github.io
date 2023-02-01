@@ -4,8 +4,8 @@ import '../scss/titlecards.scss';
 
 import Button from 'react-bootstrap/Button'
 
-import img1 from '../img/img_titlecard_1.jpg';
-import img2 from '../img/img_titlecard_2.jpg';
+import img1 from '../img/img_titlecard_1.webp';
+import img2 from '../img/img_titlecard_2.webp';
 
 export function TitleCard(){
     const [cSlide, setCSlide] = useState(0)

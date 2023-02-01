@@ -2,11 +2,11 @@ import React from 'react';
 
 import '../scss/prefooter.scss'
 
-import img1 from '../img/img_subfooter_lg.jpg'
-import img2 from '../img/img_subfooter_1.jpg'
-import img3 from '../img/img_subfooter_2.jpg'
-import img4 from '../img/img_subfooter_3.jpg'
-import img5 from '../img/img_subfooter_4.jpg'
+import img1 from '../img/img_subfooter_lg.webp'
+import img2 from '../img/img_subfooter_1.webp'
+import img3 from '../img/img_subfooter_2.webp'
+import img4 from '../img/img_subfooter_3.webp'
+import img5 from '../img/img_subfooter_4.webp'
 
 export function Prefooter(){
     return (

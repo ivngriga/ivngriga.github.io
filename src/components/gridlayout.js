@@ -4,8 +4,8 @@ import '../scss/gridlayout.scss'
 
 import { TextSlide } from './twobytwodisplay';
 
-import img1 from '../img/img_house1.jpg'
-import img2 from '../img/img_house2.jpg'
+import img1 from '../img/img_house1.webp'
+import img2 from '../img/img_house2.webp'
 
 export function TwoByTwo1(){
     return (
