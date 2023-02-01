@@ -1,0 +1,145 @@
+.brand-title{
+    background-color: #D0C5B6;
+    font-size:x-large;
+    color:#FFFFFF;
+    height:100%;
+    width:20%;
+    
+    padding-right:3%;
+    padding-left:3%;
+
+    font-family:sans-serif;
+}
+
+.brand-title:hover{
+    color:#FFFFFF
+}
+
+.me-auto{
+    font-size:small;
+    color:#000000;
+}
+
+.navbar-search{
+    border: none;
+    border-bottom: 1px solid #000000 !important;
+    border-radius:0px;
+
+    height:70%;
+
+    font-size: small;
+
+    background-color: transparent;
+}
+
+.navbar-main{
+    height: auto;
+
+    padding: 0% 3% 0% 0%;
+}
+
+.search-form-container{
+    height:100%;
+    width: 14vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.navbar-link-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: space-evenly !important;
+
+    margin-left:3%;
+    width:100%;
+
+    font-family:'Merriweather'
+}
+
+.navlink-menu-navbar:hover{
+    color:#D0C5B6;
+    text-decoration:underline;
+}
+
+.search-icon-navbar:hover{
+    cursor: pointer;
+}
+
+@media  (max-width: 768px) {
+    .brand-title{
+        height:10vh;
+        width:auto;
+
+        display:flex;
+        align-items: center;
+    }
+
+    .navbar-collapse-toggle{
+        border: none;
+        color: transparent;
+        height:10vh;
+        width:10vh;
+    }
+
+    .navbar-main {
+      background-color: #D0C5B6 !important;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
+
+    .navbar-link-container{
+        margin-left: 0px !important;
+    }
+
+    .search-form-container{
+        border-top:solid;
+        border-color:#FFFFFF;
+        padding-top:3%;
+        width: 100%;
+    }
+
+    .navbar-search{
+        width: 80%;
+    }
+
+    .search-icon-navbar{
+        transform:scale(0.7)
+    }
+
+    .navlink-menu-navbar{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: x-large;
+        border-bottom: solid;
+
+        width: 100vw;
+        text-align: center;
+        border-color:#FFFFFF;
+    }
+
+    .navlink-menu-navbar:hover{
+        color:#FFFFFF;
+        text-decoration:underline;
+    }
+
+    .nav-link-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .navlink-search{
+        order: -1;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        padding-bottom:5%;
+    }
+  }
+
+  

@@ -1,0 +1,122 @@
+.twobytwo-grid-container{
+    margin: 20px auto;
+    width:90vw;
+    height:100%;
+    background-color:#fff;
+
+    display:grid;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    margin-top: 7vw;
+
+
+    .twobytwo-grid-item{
+        background-color:rgb(245, 245, 245);
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        
+    }
+}
+
+.playfair-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.5vw;
+
+    margin-bottom:5%;
+
+    color:black;
+}
+
+.twobyone-grid-container{
+    width:90vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .twobyone-grid-item{
+        width:45%;
+    }
+}
+
+.merriweather-desc{
+    font-family:'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size:small;
+    color:#808080;
+}
+
+.grid-img-sq-container{
+    width: 100%;
+    height: 100%;
+    
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    .grid-img-sq{
+        width: 100%;
+        height:100%;
+
+        transition:transform 0.5s;
+    }
+}
+
+.grid-img-sq-container:hover{
+    .grid-img-sq{
+        transform:scale(1.3);
+    }
+}
+
+@media  (max-width: 768px){
+    .grid-img-sq{
+        transform:scale(1) !important;
+    }
+
+    .playfair-title{
+        width: 90vw;
+        text-align: center;
+        font-size: 10vw;
+    }
+    .twobyone-grid-container{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .twobyone-grid-item{
+        margin-top: 5%;
+        width: 80vw !important;
+    }
+    .twobytwo-grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        height: auto;
+        width:100vw;
+
+        .twobytwo-grid-item{
+            height: auto;
+        }
+        .grid-img-sq-container{
+            height: auto;
+        }
+
+    }
+
+    .twobytwo-grid-item:nth-child(1) { order: 2; }
+    .twobytwo-grid-item:nth-child(2) { order: 1; }
+    .twobytwo-grid-item:nth-child(3) { order: 3; }
+    .twobytwo-grid-item:nth-child(4) { order: 4; }
+
+    .merriweather-desc{
+        font-size: medium;
+    }
+    
+}

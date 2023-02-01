@@ -1,0 +1,90 @@
+.newsletter-container{
+    width: 100vw;
+    height:250px;
+
+    overflow:hidden;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .newsletter-bg-img{
+        left:0;
+        height: 100%;
+    }
+
+    .newsletter-text{
+        position:absolute;
+        text-align: center;
+        color: white;
+
+        .newsletter-title{
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: xx-large;
+
+            color: #FFFFFF;
+        }
+
+        .newsletter-desc{
+            margin-top: 3%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: small;
+        }
+
+        .newsletter-form{
+            margin-top: 10%;
+            .newsletter-input{
+                position: relative;
+    
+                border: 1px solid #FFFFFF;
+                border-radius: 0px;
+                background-color: transparent;
+                color: #FFFFFF;
+    
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: small;
+    
+                padding: 3% 5% 3% 5%;
+    
+                &::placeholder {
+                    color: #FFFFFF;
+                    opacity: 0.6;
+                    text-align: center;
+                }
+            }
+
+            .newsletter-button{
+                border: 1px solid #FFFFFF;
+                border-radius: 0px;
+                background-color: transparent;
+                color: #FFFFFF;
+
+                text-decoration: none;
+                transition: text-decoration 0.2s ease-in-out;
+
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: small;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+
+                &:active{
+                    background-color: white;
+                }
+            }
+        }
+        
+        
+    }
+}
+

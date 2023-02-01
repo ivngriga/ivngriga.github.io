@@ -1,0 +1,156 @@
+.cooldiv-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90vw;
+    height:auto;
+}
+
+.cooldiv-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.5vw;
+
+    margin-bottom:5%;
+
+    color:black;
+}
+
+.cooldiv-desc{
+    font-family:'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size:small;
+    color:#808080;
+    width: 25vw;
+}
+.cooldiv-grey-square{
+    background-color:#D9D9D9;
+    width: 45vw;
+    height: 45vw;
+
+    padding-left:22vw;
+    padding-top: 15vw;
+
+    .cooldiv-press{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size:small;
+        color: #000000;
+    }
+
+    .cooldiv-date{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: small;
+
+        color: #D0C5B6;
+    }
+
+    .cooldiv-gr-sq-title{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        color: #000000;
+
+        font-size: large;
+    }
+
+    .cooldiv-btn-container{
+        display:flex;
+        flex-direction: row;
+        gap: 15%;
+        margin-top: 20%;
+
+        .cooldiv-arrow {
+            width: 2%;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}
+
+.cooldiv-img-container{
+    .cooldiv-img{
+        position:absolute;
+        width: 30vw;
+
+        translate: -10vw 15vw;
+    }
+}
+
+@media  (max-width: 768px) {
+    .cooldiv-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cooldiv-title{
+        width: auto;
+        font-size: 7vw;
+    }
+
+    .cooldiv-desc{
+        text-align: left;
+        width: auto;
+        font-size: medium;
+    }
+
+    .cooldiv-grey-square{
+        width: 100vw;
+        height: auto;
+
+        padding-left: 5vw;
+        padding-top: 0vw;
+
+        text-align: left;
+
+        padding-bottom: 5vw;
+
+        .cooldiv-press{
+            font-size: large;
+        }
+
+        .cooldiv-date{
+            font-size: large;
+        }
+
+        .cooldiv-gr-sq-title{
+            font-size: 10vw;
+        }
+    }
+
+    .cooldiv-img-container{
+        background-color:#D9D9D9;
+        width: 100vw;
+        height: auto;
+        
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top:10vw;
+        .cooldiv-img{
+            position: relative !important;
+            translate: 0vw 0vw !important;
+            width: 90vw !important;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .cooldiv-btn-container{
+        align-items: center;
+        justify-content: center;
+    }
+}
