@@ -92,3 +92,16 @@
     }
 }
 
+@media  (max-width: 768px) {
+    .newsletter-container{
+        height:50vw !important;
+
+        .newsletter-title{
+            font-size: 10vw !important;
+        }
+
+        .newsletter-desc{
+            font-size: 2.5vw !important;
+        }
+    }
+}
