@@ -21,29 +21,29 @@ export function Footer() {
       <MDBFooter className='text-center' color='white' bgColor='dark' style={{width:"100vw"}}>
         <MDBContainer className='p-4 footer-container-all' style={{width:"100vw"}}>
           <section className='footer-link-container'>
-          <MDBRow style={{width:"80vw"}}>
+          <MDBRow style={{}}>
               <MDBCol lg='3' md='3' className='mb-4 mb-md-0 footer-logo-col'>
                 <img src={img1} className='footer-logo-img'></img>
               </MDBCol>
           </MDBRow>
-            <MDBRow style={{width:"80vw", overflow:'hidden'}}>
+            <MDBRow style={{}}>
                 <MDBCol lg='3' md='3' className='d-none d-md-block'>
     
                   <ul className='list-unstyled footer-classic-links'>
                     <li className='footer-li-classic'>
-                      <a href='#!' className='footer-text-classic'>
+                      <div href='#!' className='footer-text-nonresponsive'>
                         Watch/Lab - Innovation brings success
-                      </a>
+                      </div>
                     </li>
                     <li className='footer-li-classic'>
-                      <a href='#!' className='footer-text-classic'>
+                      <div href='#!' className='footer-text-nonresponsive'>
                       Via Borgogna 5, Milan
-                      </a>
+                      </div>
                     </li>
                     <li className='footer-li-classic'>
-                      <a href='#!' className='footer-text-classic'>
+                      <div href='#!' className='footer-text-nonresponsive'>
                       Italy
-                      </a>
+                      </div>
                     </li>
                   </ul>
                 </MDBCol>
@@ -129,7 +129,7 @@ export function Footer() {
               </MDBCol>
             </MDBRow>
 
-            <MDBRow className='footer-copyright-container' style={{width:"80vw"}}>
+            <MDBRow className='footer-copyright-container' style={{}}>
               <MDBCol lg='3' md='3' className='mb-4 mb-md-0'>
                 <ul className='list-unstyled footer-classic-links'>
                   <li className='footer-li-classic'>
