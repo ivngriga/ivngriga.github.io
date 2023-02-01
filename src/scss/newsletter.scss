@@ -1,6 +1,6 @@
 .newsletter-container{
     width: 100vw;
-    height:250px;
+    height:20vw;
 
     overflow:hidden;
     
@@ -23,7 +23,7 @@
             font-family: 'Playfair Display';
             font-style: normal;
             font-weight: 400;
-            font-size: xx-large;
+            font-size: 4vw;
 
             color: #FFFFFF;
         }
@@ -33,13 +33,15 @@
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
-            font-size: small;
+            font-size: 1vw;
         }
 
         .newsletter-form{
             margin-top: 10%;
             .newsletter-input{
                 position: relative;
+
+                height:4vw;
     
                 border: 1px solid #FFFFFF;
                 border-radius: 0px;
@@ -49,7 +51,7 @@
                 font-family: 'Playfair Display';
                 font-style: normal;
                 font-weight: 400;
-                font-size: small;
+                font-size: 2vw;
     
                 padding: 3% 5% 3% 5%;
     
@@ -65,6 +67,8 @@
                 border-radius: 0px;
                 background-color: transparent;
                 color: #FFFFFF;
+                width:4vw;
+                height:4vw;
 
                 text-decoration: none;
                 transition: text-decoration 0.2s ease-in-out;
@@ -72,7 +76,7 @@
                 font-family: 'Playfair Display';
                 font-style: normal;
                 font-weight: 400;
-                font-size: small;
+                font-size: 1vw;
 
                 &:hover{
                     text-decoration: underline;

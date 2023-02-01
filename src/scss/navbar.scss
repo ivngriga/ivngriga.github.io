@@ -4,9 +4,6 @@
     color:#FFFFFF;
     height:100%;
     width:20%;
-    
-    padding-right:3%;
-    padding-left:3%;
 
     font-family:sans-serif;
 }
@@ -70,8 +67,10 @@
 
 @media  (max-width: 768px) {
     .brand-title{
-        height:10vh;
+        height:70px;
         width:auto;
+
+        max-width:60%;
 
         display:flex;
         align-items: center;
@@ -80,8 +79,8 @@
     .navbar-collapse-toggle{
         border: none;
         color: transparent;
-        height:10vh;
-        width:10vh;
+        height:50px;
+        width:50px;
     }
 
     .navbar-main {

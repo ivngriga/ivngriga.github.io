@@ -18,19 +18,15 @@ import '../scss/footer.scss'
 
 export function Footer() {
     return (
-      <MDBFooter className='text-center' color='white' bgColor='dark'>
-        <MDBContainer className='p-4'>
-          
-          <section className='footer-logo-section' >
-            
-          </section>
+      <MDBFooter className='text-center' color='white' bgColor='dark' style={{width:"100vw"}}>
+        <MDBContainer className='p-4 footer-container-all' style={{width:"100vw"}}>
           <section className='footer-link-container'>
-          <MDBRow>
+          <MDBRow style={{width:"80vw"}}>
               <MDBCol lg='3' md='3' className='mb-4 mb-md-0 footer-logo-col'>
                 <img src={img1} className='footer-logo-img'></img>
               </MDBCol>
           </MDBRow>
-            <MDBRow>
+            <MDBRow style={{width:"80vw", overflow:'hidden'}}>
                 <MDBCol lg='3' md='3' className='d-none d-md-block'>
     
                   <ul className='list-unstyled footer-classic-links'>
@@ -133,7 +129,7 @@ export function Footer() {
               </MDBCol>
             </MDBRow>
 
-            <MDBRow className='footer-copyright-container'>
+            <MDBRow className='footer-copyright-container' style={{width:"80vw"}}>
               <MDBCol lg='3' md='3' className='mb-4 mb-md-0'>
                 <ul className='list-unstyled footer-classic-links'>
                   <li className='footer-li-classic'>
